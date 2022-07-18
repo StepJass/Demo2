@@ -1,0 +1,31 @@
+
+/* .header{
+    position: relative; */
+/* } */
+.tooltip{
+    color: brown;
+    
+    text-align: center;
+    margin: auto;
+ 
+  
+    border: 2px solid red;
+    padding: 10px;
+    width: 20%;
+    display: inline-block;
+}
+
+.tooltip_txt{
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    background-color: chartreuse;
+    color: red;
+    
+    border-radius: 6px;
+    padding: 5px;
+    z-index: 1;
+}
+ .tooltip:hover .tooltip_txt{
+    visibility: visible;
+}
